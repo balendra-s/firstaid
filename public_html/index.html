@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<script type="text/javascript" src="https://livejs.com/live.js"></script>
+<link rel="Stylesheet" href="Stylesheet.css">
+<link rel="Stylesheet" href="header-stylesheet.css">
+<head>
+    <meta charset="UTF-8">
+    <!--Encode Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!--Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&family=Poppins:ital,
+                 wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Roboto:ital,
+                 wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+          rel="stylesheet">
+    <title>First Help</title>
+
+    <!--Open sans-->
+    <!--lo.no, regjeringen.no,ulleval,-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,
+                400&display=swap"
+          rel="stylesheet">
+
+    <!--Inter-->
+</head>
+<body>
+
+<!--HEADER SECTION-->
+
+<header>
+    <section class="main-header">
+        <p class="logo-text"><span class="the">the</span>aid</p>
+        <nav class="header-nav">
+            <a class="courses" href="CoursePage/KursOversikt.html">Courses</a>
+            <a class="locations" href="#">Locations</a>
+            <a class="home" href="#">Home</a>
+            <a class="about" href="#who-are-vi">About</a>
+            <a class="log-in" href="#">Log in</a>
+            <a class="account-info" href="AccountDetails/account-details.html">User</a>
+            <a class="book-now" href="CoursePage/KursOversikt.html">Book now</a>
+        </nav>
+    </section>
+</header>
+
+<!-- TODO
+     * Add X to close the window
+     * STOP SCROLLING
+     * MAKE THE WINDOW MOVE ALONG IN Y-AXIS-->
+<!-- LOG IN SECTION -->
+<section class = "log-in-section hidden" id="log-in-container" >
+    <div class="log-in-form pop-up">
+
+        <h1 class="log-in-form-heading"><span class="log">Log </span>in</h1>
+        <h1 class="log-in-form-heading-signup hidden"><span class="log">Sign </span>up</h1>
+        <form class="form-login">
+            <input type="text" class="input" placeholder=" user-name">
+            <input type="password" class="input" placeholder=" password">
+            <input type="text" class="input new-user-field hidden" placeholder=" first name" >
+            <input type="text" class="input new-user-field hidden" placeholder=" last name" >
+            <input type="email" class="input new-user-field hidden" placeholder=" E-mail" >
+        </form>
+        <button class="log-in-btn disabled" >Log in</button>
+        <a class="new-user" href="#"> Create new user</a>
+    </div>
+</section>
+
+<!--HERO SECTION-->
+
+<section class="hero-section-container">
+    <div class="hero-section">
+        <div class="hero-section-text">
+            <p class="hero-text-we">We offer</p>
+            <h1 class="hero-text-heading">
+                First aid courses customized for your workplace.
+            </h1>
+            <p class="our-courses book-now">Our Courses</p>
+        </div>
+
+        <img class="hero-section-img" src="../img/How-to-become-a-first-aider.jpeg"
+             alt="doll with cpr">
+    </div>
+</section>
+
+<!--STATISTIC-->
+
+<div class="statistic">
+    <div class="statistic-items">
+        <p class="enrollments heading">Enrollments</p>
+        <p class="number">9000 + </p>
+    </div>
+    <div class="statistic-items">
+        <p class="trainers heading">Trainers</p>
+        <p class="number">50 +</p>
+    </div>
+    <div class="statistic-items">
+        <p class="five-star heading">Five star review</p>
+        <p class="number">200 + </p>
+    </div>
+    <div class="statistic-items">
+        <p class="countries heading">Countries</p>
+        <p class="number">6 </p>
+    </div>
+</div>
+
+
+<!--TODO add bestseller tag to one of the courses
+         add book now button when user hovers over card
+         drop shadow and add focus effect
+         make card with bestseller tag to be in focus
+         -->
+<!--BEST SELLER SECTION-->
+
+<section class="best-seller-section">
+    <!--ONE DAY COURSE-->
+    <div class="one-day-course">
+        <img class="one-day-course-img" src="../img/first%20aid%20course.jpeg" alt="first aid course"/>
+        <div class="course-description">
+            <p>1 - day course</p>
+            <ul>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>Suits all</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>1 day</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>9999 kr</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>At local office</span>
+                </li>
+            </ul>
+            <!--                <p class="book-now best-seller-section-booknow "> Book now </p>-->
+        </div>
+    </div>
+
+    <!--THREE DAYS COURSE-->
+
+    <div class="one-day-course">
+        <img class="one-day-course-img" src="../img/first%20aid%20course%202.jpeg" alt="first aid course"/>
+        <div class="course-description">
+            <p>3 - days course</p>
+            <ul>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>Suits all</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>1 day</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>19999 kr</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>At local office</span>
+                </li>
+            </ul>
+            <!--            <p class="book-now best-seller-section-booknow "> Book now </p>-->
+        </div>
+    </div>
+
+    <!--WORK PLACE COURSE-->
+
+    <div class="one-day-course">
+        <img class="one-day-course-img" src="../img/work%20place%20course.jpeg" alt="first aid course"/>
+        <div class="course-description">
+            <p>Work place course</p>
+            <ul>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>Suits all</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>3 day</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>29999 kr</span>
+                </li>
+                <li>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>At local office</span>
+                </li>
+            </ul>
+            <!--            <p class="book-now best-seller-section-booknow "> Book now </p>-->
+        </div>
+    </div>
+</section>
+
+
+<!-- WHY-CHOOSE-THEAID -->
+
+<section class="why-choose-theaid-section">
+    <div class="why-choose-theaid-section-header">
+        <h1 class="why-choose-heading">Why do people choose theaid ? </h1>
+        <p class="why-choose-heading-text">Founded in 2011, we focus on delivering high quality first aid training that sets
+    the employers in stand to handle sudden accident´s in the workplace.</p>
+    </div>
+    <div class="why-choose-grid">
+        <div class="why-choose-facts">
+            <div>
+                <ion-icon name="star-outline" class="why-choose-facts-icons"></ion-icon>
+                <h2 class="why-choose-facts-heading">
+                    World class training facilities
+                </h2>
+                <p class="why-choose-facts-text">
+                    We invested over 250,000kr last year on our training facilities to provide you
+                    with the best possible learning experience
+                </p>
+            </div>
+            <div>
+                <ion-icon name="bar-chart-outline" class="why-choose-facts-icons"></ion-icon>
+                <h2 class="why-choose-facts-heading">
+                    Training experience
+                </h2>
+                <p class="why-choose-facts-text">
+                    Since 2011, we have trained over 9000 employers in 6 different countries.
+                </p>
+            </div>
+            <div>
+                <ion-icon name="people-outline" class="why-choose-facts-icons"></ion-icon>
+                <h2 class="why-choose-facts-heading">
+                    Expert trainers
+                </h2>
+                <p class="why-choose-facts-text">
+                    Our training staff are leading industry experts with Teaching, Assessing, and Quality Assurance
+                    qualifications.
+                </p>
+            </div>
+
+            <div>
+                <ion-icon name="alarm-outline" class="why-choose-facts-icons"></ion-icon>
+                <h2 class="why-choose-facts-heading">
+                    Flexibility
+                </h2>
+                <p class="why-choose-facts-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt libero minus praesentium quae, quod sit!
+
+                </p>
+            </div>
+            <div>
+                <ion-icon name="cash-outline" class="why-choose-facts-icons"></ion-icon>
+                <h2 class="why-choose-facts-heading">
+                    Value for money
+                </h2>
+                <p class="why-choose-facts-text">
+                    We invested over 250,000kr last year on our training facilities to provide you
+                    with the best possible learning experience
+                </p>
+            </div>
+            <div>
+                <ion-icon name="construct-outline" class="why-choose-facts-icons"></ion-icon>
+                <h2 class="why-choose-facts-heading">
+                    Customized courses
+                </h2>
+                <p class="why-choose-facts-text">
+                    We invested over 250,000kr last year on our training facilities to provide you
+                    with the best possible learning experience
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--CALL-TO-ACTION-->
+
+<section class="cta-section">
+    <div class="cta">
+
+        <img src="../img/first-aid.jpeg" alt="doll with cpr" class="cta-img" />
+        <div></div>
+        <div class="cta-text-box">
+            <h2 class="cta-text"> Cant find a suitable course for your workplace ?</h2>
+            <button class="contact-us book-now">Contact us</button>
+        </div>
+    </div>
+</section>
+
+<!--TESTIMONIAL-->
+
+    <div class="testimonial-section">
+        <div class="testimonial">
+            <!-- <img class="headshot-guy" src="img/headshot-guy-400.jpg" alt="headshot of a man"> -->
+            <div class="quote-section">
+                <p class="quote">"Red Cross are very competent experts in first help. They are so effective; you never
+                    need the second help."</p>
+                <p class="testimonial-name"><em>- Billy Eirish</em></p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <!-- <img class="headshot-girl1" src="img/headshot-girl-400.jpg" alt="headshot of a woman"> -->
+            <div class="quote-section">
+                <p class="quote">"These folks may not be Linux kernel gurus, but they do one thing well – they teach
+                    you the essentials of first help in an easy and interesting way."</p>
+                <p class="testimonial-name"><em>- Anna Brook</em></p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <!-- <img class="headshot-guy2" src="img/headshot-guy2-400.jpg" alt="headshot of a man"> -->
+            <div class="quote-section">
+                <p class="quote">"I have been HR responsible at my company for 12 years, and every year I update
+                    my certification with Red Cross Ålesund. I can proudly say that no one has died under my
+                    watch."</p>
+                <p class="testimonial-name"><em>- James Brown</em></p>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
+
+<footer>
+    <section class="footer-section">
+        <div class="footer-section-one">
+            <p class="logo-text"><span class="the footer-the">the</span>aid</p>
+            <nav class="footer-nav">
+                <a  class="footer-nav-link" href="#">Home</a>
+                <a class="footer-nav-line">|</a>
+                <a  class="footer-nav-link" href="#">Courses</a>
+                <a class="footer-nav-line">|</a>
+                <a  class="footer-nav-link" href="#">Contact us</a>
+            </nav>
+        </div>
+
+        <div class="footer-section-two">
+            <div class="footer-address-with-icon">
+                <ion-icon name="map"></ion-icon>
+                <div class="footer-address">
+                    <p class="footer-address-text">Nedrestrandgt 43A</p>
+                    <p class="footer-address-text">6020 Ålesund</p>
+                </div>
+            </div>
+            <div class="footer-tlf-with-icon">
+                <ion-icon name="call"></ion-icon>
+                <p>9876 5412</p>
+            </div>
+            <div class="footer-support-with-icon">
+                <ion-icon name="mail"></ion-icon>
+                <p class="footer-address-text">support@theaid.no</p>
+            </div>
+        </div>
+
+
+        <div class="footer-section-three">
+            <h4 class="footer-join-us">Join us now </h4>
+            <p class="footer-join-text">Notified when the courses are available.<br>
+            Get overview of your booked courses</p>
+            <ion-icon class="footer-join-us-arrow" name="arrow-forward"></ion-icon>
+        </div>
+    </section>
+</footer>
+
+<!-- TO USE IN JS -->
+
+<div class="overlay hidden"></div>
+
+<!-- JS Script file-->
+
+<script src="script.js"></script>
+
+<!-- FOR USING ICONS FROM ionic.io -->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

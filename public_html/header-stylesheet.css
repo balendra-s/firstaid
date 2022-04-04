@@ -1,0 +1,389 @@
+
+
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+
+    font-family: 'Inter', sans-serif;
+    color: #555;
+    font-size: 1.8rem;
+}
+
+/* ---HEADER SECTION--- */
+
+.main-header{
+    max-width: 180rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2.8rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.logo-text{
+    font-weight: 700;
+    color: #d23f3f;
+    font-size: 5.5rem;
+    letter-spacing: .3rem;
+}
+.the{
+    font-weight: 600;
+    font-size: 4rem;
+    color: #333;
+}
+.header-nav{
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    padding: 1.2rem 1.8rem;
+}
+nav a:link,
+nav a:visited{
+    text-decoration: none;
+}
+nav a:hover,
+nav a:active{
+    background-color: #da4f4f;
+    color: #fff;
+}
+.book-now:hover,
+.book-now:active{
+    background-color: #da4f4f;
+    color: #f1f1f1;
+    transition-duration: .5s;
+}
+.book-now{
+    background-color: rgba(218, 79, 79, 0.81);
+    color: #fff;
+}
+.courses{
+    border: #da4f4f solid;
+}
+
+/* ---HERO SECTION--- */
+
+.hero-section-container{
+    background-color: #343a40;
+    padding: 5rem 0;
+    margin-bottom: 8rem;
+}
+.hero-section{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    align-items: center;
+}
+.hero-section-img{
+    width: 100%;
+    border-radius: 0;
+    transform: scale(1.1,1.3);
+}
+.hero-text-we{
+    color: #d23f3f;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+
+}
+.hero-text-heading{
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-weight: 600;
+
+}
+.our-courses{
+    display: inline-block;
+    padding: 1.2rem 1.8rem;
+}
+.our-courses:hover{
+    cursor: pointer;
+}
+
+/* ---STATISTIC SECTION--- */
+
+.statistic{
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.statistic-items{
+    text-align: left;
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    color: #555;
+}
+.number{
+    font-size: 4rem;
+    color: #d23f3f;
+}
+.aid{
+    color: #d23f3f;
+}
+
+/* --BEST SELLER SECTION-- */
+
+.best-seller-section{
+    padding: 2.6rem 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+    margin-bottom: 6rem;
+ 
+    }
+.one-day-course{
+     overflow: hidden;
+     box-shadow: 0 2.4rem 4.8rem rgba(100, 0, 0, 0.09);
+     border-radius: .5rem;
+} 
+.one-day-course-img{
+    width: 30rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+    border-radius: 0;
+    padding: 0;
+}
+.course-description{
+     padding: 3rem;      
+}
+.course-description p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+}
+.course-description ul{
+  list-style-type: none;
+    font-size: 1.4rem;
+}
+.course-description ul li{
+    margin-bottom: 1rem;
+}
+.one-day-course ul{
+    margin-bottom: 2rem;
+}
+ion-icon{
+    color: #d23f3f;
+    font-size: 1.8rem;
+     --ionicon-stroke-width: 4rem;
+}
+.best-seller-section-booknow{
+    display: inline-block;
+    padding: .75rem;
+    font-size: 1.8rem;
+    border: none;
+}
+
+.best-seller-section-booknow:hover{
+    cursor: pointer;
+}
+
+.one-day-course:hover {
+    box-shadow: 0 2.4rem 4.8rem rgba(100, 0, 0, 0.39);
+    transition-duration: 1s;
+}
+
+/* --WHY CHOOSE US SECTION-- */
+
+.why-choose-theaid-section{
+    max-width: 130rem;
+    margin: 0 auto;
+    margin-bottom: 14rem;
+}
+.why-choose-theaid-section-header{
+    margin-bottom: 5rem;
+}
+.why-choose-heading{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+
+}
+.why-choose-facts-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.why-choose-facts-text{
+    font-size: 1.8rem;
+}
+.why-choose-facts-icons{
+    margin-bottom: 1rem;
+    color: #d23f3f;
+    font-size: 3rem;
+    --ionicon-stroke-width:3rem;
+}
+.why-choose-grid{
+    max-width: 120rem;
+}
+.why-choose-facts {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+/* --CTA SECTION-- */
+.cta-section{
+    background-color: #495057;
+}
+.cta{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr .2fr 1fr;
+    margin-bottom: 12rem;
+}
+.cta-img{
+       width: 100%;
+        transform: scale(1.2,1.2);
+}
+.cta-text-box{
+    display: grid;
+    color: #fff;
+  align-content: center;
+   justify-content: center;
+}
+.contact-us{
+    margin-top: 3rem;
+    padding: 1.2rem 1.8rem;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+}
+
+/*-- FOOTER --*/
+
+footer{
+    margin-top: 7rem;
+    background-color: #343a40;
+}
+.footer-section{
+    max-width: 180rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem 2.8rem;
+    gap: 5rem;
+    color: #fff;
+}
+.footer-the{
+    color: #fff;
+    margin-left: 1.5rem;
+}
+
+.footer-nav{
+    display: flex;;
+    list-style: none;
+}
+.footer-nav-link{
+    color: #fff;
+}
+.footer-nav-line{
+    color: #d23f3f;
+}
+.footer-join-us{
+    color: #d23f3f;
+}
+.footer-section-two,
+.footer-section-three{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-address-with-icon,
+.footer-tlf-with-icon,
+.footer-support-with-icon{
+    display: flex;
+    gap: 3rem;
+}
+.footer-join-us-arrow{
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+/* -- LOG IN --*/
+
+.pop-up{
+    gap: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 6rem;
+    border-radius: 2px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.5);
+    z-index:10;
+}
+.log-in-form-heading,
+.log-in-form-heading-signup{
+    color: #d23f3f;
+}
+.log{
+    color: #555555;
+}
+.log-in-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.input{
+    width: 100%;
+    padding: 1rem;
+}
+.log-in-btn{
+    width: 100%;
+    padding: 1rem 4rem;
+    color: #555555;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+.new-user{
+    font-size: 1.6rem;
+    margin-top: -1.5rem;
+}
+
+/* -- HIDDEN --*/
+
+.hidden{
+    display: none;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
